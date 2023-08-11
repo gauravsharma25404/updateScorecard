@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket scorecard</title>
+    <link rel="stylesheet" href="default.css">
+    <script src = "./scripts/app.js" ></script>
+    <script src = "./scripts/timer.js" ></script>
+    <!-- <script src = "./scripts/teams.js"></script> -->
+    
+</head>
+<body>
+     <section id ="playingTeams">
+        <div class = "teams">
+            <div class = "team1">
+                <img src="https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg?w=400&h=235&c=crop" alt="India logo">
+                <figcaption>India</figcaption>
+            </div>
+            <p class = "versus">v/s</p>
+            <div class="team2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStgLImDMKROm3Y9QPRr9dGvnKT6poNht_oeg&usqp=CAU" alt="pakistan logo">
+                <figcaption>Pakistan</figcaption>
+            </div>
+        </div>
+     </section>
+
+   
+        <section id = "match">
+            <div class = "matchData"> 
+                <div class = "timer">
+                     <div class="checkTime">Innings TimeOut</div>
+                     <div class="duration">
+                        <div id="hour"></div>
+                        <div id="minute"></div>
+                        <div id="second"></div>
+                     </div>
+                </div>
+            <div class = "matchRecords">
+                    <div class = "matchScore">
+                        <div class = "runWicket">
+                            <div>IND</div>
+                            <div id = "score">0 - 0</div>
+                        </div>
+            
+                        <div class = "overs">
+                            <div>Overs</div>
+                            <div id = "over">0.0</div>
+                        </div>
+                    </div>
+                
+                    <div class = "runRate">
+                        <div class = "currentRunRate">
+                            <div>current run rate</div>
+                            <div id = "currentRate">0.0</div>
+                        </div>
+                        <div class = "requiredRunRate">
+                            <div>required run rate</div>
+                            <div id = "requiredRate">0.0</div>
+                        </div>
+                    </div>
+                    <div class = "neededRuns">
+                        <div>Need <spam>0</spam> runs In <spam>0</spam> overs</div>
+                    </div>
+                    
+            </div>
+            <div class="updateKeys">
+                <div class="keyType">
+                    <button type="button" id="noBall">No Ball</button>
+                    <button type="button" id="out">Out</button>
+                    <button type="button" id="byes">B/LB</button>
+                    <button type="button" id="wide">Wide</button>
+                </div>
+                <div class = "keyType">
+                    <button type="button" id="one">One</button>
+                    <button type="button" id="two">Two</button>
+                    <button type="button" id="three">Three</button>
+                    <button type="button" id="four">Four</button>
+                </div>
+                <div class="keyType">
+                    <button type="button" id="five">Five</button>
+                    <button type="button" id="six">Six</button>
+                    <button type="button" id="zero">Zero</button>
+                    <button type="button" id="undo">UNDO</button>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+   
+        
+        </div>
+</body>
+</html>
